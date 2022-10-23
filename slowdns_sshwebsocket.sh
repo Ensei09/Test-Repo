@@ -86,10 +86,14 @@ COUNTER="$(curl -4sX GET "https://api.countapi.xyz/hit/BonvScripts/DebianVPS-Ins
 
 IPADDR="$(curl -4skL http://ipinfo.io/ip)"
 
-GLOBAL_API_KEY="03d0feacc806be806ec10d2914b77dab0de64"
-CLOUDFLARE_EMAIL="mediatekvpn04@gmail.com"
-DOMAIN_NAME_TLD="dexter-eskalarte.com"
-DOMAIN_ZONE_ID="f0296f551ef0f3e718abb798bdcd9ab0"
+read -p "Enter Cloudflare Global API Key: " GLOBAL_API_KEY
+read -p "Enter Cloudflare Email: " CLOUDFLARE_EMAIL
+read -p "Enter Cloudflare Domain Name: " DOMAIN_NAME_TLD
+read -p "Enter Cloudflare Domain Zone ID: " DOMAIN_ZONE_ID
+#GLOBAL_API_KEY="03d0feacc806be806ec10d2914b77dab0de64"
+#CLOUDFLARE_EMAIL="mediatekvpn04@gmail.com"
+#DOMAIN_NAME_TLD="dexter-eskalarte.com"
+#DOMAIN_ZONE_ID="f0296f551ef0f3e718abb798bdcd9ab0"
 ### DNS hostname / Payload here
 ## Setting variable
 
