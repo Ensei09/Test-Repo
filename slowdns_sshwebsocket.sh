@@ -30,7 +30,7 @@ WS_Port1='80'
 WS_Port2='444'
 
 # Your SSH Banner
-SSH_Banner='https://raw.githubusercontent.com/EskalarteDexter/Autoscript/main/SshBanner'
+SSH_Banner='https://raw.githubusercontent.com/Ensei09/Test-Repo/main/SSHBanner'
 
 # Dropbear Ports
 Dropbear_Port1='550'
@@ -1423,7 +1423,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 3600
 DEFAULT_HOST = '127.0.0.1:1194'
-RESPONSE = 'HTTP/1.1 101 <font color="red">Dexter Eskalarte</font>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 <font color="purple">ENSEI VPN</font>\r\n\r\nContent-Length: 104857600000\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
