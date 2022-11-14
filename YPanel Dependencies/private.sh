@@ -2,6 +2,7 @@
 error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
+##Set DB Details of Yellow Panel
 $DB_host = "18.138.215.77";
 $DB_user = "enseivpn";
 $DB_pass = "ajyDPYthB8FTA25G";
