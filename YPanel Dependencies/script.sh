@@ -295,10 +295,10 @@ EOM
 
 cat <<\EOM >/etc/openvpn/script/config.sh
 #!/bin/bash
-HOST='139.162.23.221'
-USER='fatimamh_universal'
-PASS='worlduniversal'
-DB='fatimamh_universal'
+HOST='127.0.0.1'
+USER='enseivpn'
+PASS='enseivpn111422'
+DB='enseivpn'
 EOM
 
 cat <<\EOM >/etc/openvpn/script/connect.sh
