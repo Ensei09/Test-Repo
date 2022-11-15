@@ -1,10 +1,14 @@
 {
-  "latestVersion": "1.1",
-  "latestVersionCode": "1",
-  "url": "https://thesispanel.enseivpn.ml:7800/down/DscrPGRwbL0F",
+  "latestVersion": "1.2",
+  "latestVersionCode": "2",
+  "url": "https://appdownload.enseivpn.online/EnseiVPN-v1.2-release.apk",
   "releaseNotes": [
-    "- First evolution",
-    "- Second evolution",
-    "- Bug fixes"
+    "What's New?",
+    "- Wanna know how fast is Ensei VPN in your area?",
+    "- Try the new SpeedTest feature now!",
+    "- Fixed Bug on Authenticating",
+    "- Fixed Splash Screen Theme to match correctly",
+    "That's all folks, enjoy the update ❤️",
+    "Thank you for choosing Ensei VPN ❤️"
   ]
 }
