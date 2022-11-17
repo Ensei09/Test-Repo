@@ -1,9 +1,10 @@
 {
   "latestVersion": "1.3",
-  "latestVersionCode": "1",
-  "url": "https://appdownload.enseivpn.online/EnseiVPN-release-v1.3.apk",
+  "latestVersionCode": "3",
+  "url": "https://appdownload.enseivpn.online/EnseiVPN-release-v1.3-build-3.apk",
   "releaseNotes": [
     "What's New?",
+    "- Sorry Folks, Fixed App Not Installed Issue",
     "- Internet Sharing is here!",
     "- You may know share your internet connection to other devices such as Desktop, Laptop, iPhone, SMARTTV, etc...",
     "- Fixed Bug SpeedTest not working",
