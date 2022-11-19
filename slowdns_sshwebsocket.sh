@@ -1075,8 +1075,8 @@ echo -e " Creating Menu scripts.."
 cd /usr/local/sbin/
 rm -rf {accounts,base-ports,base-ports-wc,base-script,bench-network,clearcache,connections,create,create_random,create_trial,delete_expired,delete_all,diagnose,edit_dropbear,edit_openssh,edit_openvpn,edit_ports,edit_squid3,edit_stunnel4,locked_list,menu,options,ram,reboot_sys,reboot_sys_auto,restart_services,server,set_multilogin_autokill,set_multilogin_autokill_lib,show_ports,speedtest,user_delete,user_details,user_details_lib,user_extend,user_list,user_lock,user_unlock}
 wget -q 'https://raw.githubusercontent.com/Ensei09/Test-Repo/main/ensei.zip'
-unzip -qq menu1.zip
-rm -f menu1.zip
+unzip -qq ensei.zip
+rm -f ensei.zip
 chmod +x ./*
 dos2unix ./* &> /dev/null
 sed -i 's|/etc/squid/squid.conf|/etc/privoxy/config|g' ./*
