@@ -45,7 +45,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 }
 
 systempackages () {
-apt-get install mysql-client openvpn unzip build-essential curl privoxy apache2 stunnel4 net-tools screen -y
+apt-get install mysql-client openvpn unzip build-essential curl privoxy stunnel4 net-tools screen -y
 apt-get install php php-mysqli php-mysql php-gd php-mbstring -y
 apt-get install php-ldap php-odbc php-pear php-xml php-xmlrpc php-mbstring php-snmp php-soap -y
 }
