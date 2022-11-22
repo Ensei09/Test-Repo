@@ -416,6 +416,10 @@ socket = r:TCP_NODELAY=1
 accept = 1194
 connect = 127.0.0.1:110
 
+[dropbear]
+accept = 443
+connect = 127.0.0.1:442
+
 [ssh]
 accept = 8020
 connect = 127.0.0.1:22
