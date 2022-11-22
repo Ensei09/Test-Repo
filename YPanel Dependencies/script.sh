@@ -39,7 +39,7 @@ systemupdate () {
 apt-get update
 apt-get -y install dropbear
 sed -i 's/NO_START=1/NO_START=0/g' /etc/default/dropbear
-sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=442/g' /etc/default/dropbear
+sed -i 's/DROPBEAR_PORT=22/DROPBEAR_PORT=550/g' /etc/default/dropbear
 echo "/bin/false" >> /etc/shells
 echo "/usr/sbin/nologin" >> /etc/shells
 }
@@ -59,7 +59,7 @@ touch /var/www/html/stat/udpstatus2.txt
 chmod 755 /var/www/html/stat/*
 
 cat <<\EOM >/etc/openvpn/server.conf
-port 443
+port 442
 sndbuf 0
 rcvbuf 0
 push "sndbuf 393216"
@@ -418,7 +418,7 @@ connect = 127.0.0.1:110
 
 [dropbear]
 accept = 443
-connect = 127.0.0.1:442
+connect = 127.0.0.1:550
 
 [ssh]
 accept = 8020
@@ -509,7 +509,7 @@ echo -e "#############################################${RESET}"
 
 ports () {
 echo -e "${GREEN} Service	                 PORTS ${RESET}"
-echo -e "${GREEN}Openvpn TCP           = 443, 110 ${RESET}"
+echo -e "${GREEN}Openvpn TCP           = 442, 110 ${RESET}"
 echo -e "${GREEN}Openvpn UDP           = 110 ${RESET}"
 echo ""
 echo -e "${GREEN}Privoxy               = 8080, 8888, 3128, 8000 ${RESET}"
@@ -517,6 +517,7 @@ echo ""
 echo -e "${GREEN}WebServer             = 80 ${RESET}"
 echo ""
 echo -e "${GREEN}SSH                   = 22 ${RESET}"
+echo -e "${GREEN}Dropbear              = 550 ${RESET}"
 echo ""
 echo -e "${GREEN}PythonProxy-SSH       = 8010 ${RESET}"
 echo -e "${GREEN}PythonProxy-OpenVPN   = 8060 cdc ${RESET}"
