@@ -342,14 +342,16 @@ function InsOpenVPN(){
  if [[ ! -e /etc/openvpn ]]; then
   mkdir -p /etc/openvpn
  fi
+
+ # Removing all existing openvpn server files
+ rm -rf /etc/openvpn/*
+
 mkdir /etc/openvpn/script
 mkdir /var/www/html/stat
 touch /var/www/html/stat/status.txt
 touch /var/www/html/stat/udpstatus.txt
 touch /var/www/html/stat/udpstatus2.txt
 chmod 755 /var/www/html/stat/*
- # Removing all existing openvpn server files
- rm -rf /etc/openvpn/*
 
  # Creating server.conf, ca.crt, server.crt and server.key
  cat <<'myOpenVPNconf1' > /etc/openvpn/server_tcp.conf
