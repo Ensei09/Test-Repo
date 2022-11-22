@@ -10,7 +10,7 @@ if nc -z localhost 8010; then
     echo "stunnel running"
 else
     echo "Starting Port 8010"
-    screen -dmS proxy python /bin/proxy.py 80
+    screen -dmS proxy python /bin/proxy.py 8010
 fi
 
 if nc -z localhost 8070; then
