@@ -6,10 +6,10 @@ from os import system
 system("clear")
 #conexao
 IP = '0.0.0.0'
-try:
-   PORT = int(sys.argv[1])
+if sys.argv[1:]:
+  PORT = sys.argv[1]
 else:
-   PORT = 80
+  PORT = 80
 PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 3600
