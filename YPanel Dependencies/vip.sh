@@ -3,10 +3,10 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
 ##Set DB Details of Yellow Panel
-$DB_host = "18.138.215.77";
-$DB_user = "enseivpn";
-$DB_pass = "ajyDPYthB8FTA25G";
-$DB_name = "enseivpn";
+$DB_host = "52.77.222.221";
+$DB_user = "sql_panel_enseiv";
+$DB_pass = "X5jyaPs8teJBSTeJ";
+$DB_name = "sql_panel_enseiv";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
