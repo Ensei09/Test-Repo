@@ -421,7 +421,7 @@ accept = 8020
 connect = 127.0.0.1:22
 
 [dropbear]
-accept = 80
+accept = 443
 connect = 127.0.0.1:550
 EOF
 }
