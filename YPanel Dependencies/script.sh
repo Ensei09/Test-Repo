@@ -59,7 +59,7 @@ touch /var/www/html/stat/udpstatus2.txt
 chmod 755 /var/www/html/stat/*
 
 cat <<\EOM >/etc/openvpn/server.conf
-port 443
+port 441
 sndbuf 0
 rcvbuf 0
 push "sndbuf 393216"
@@ -419,6 +419,10 @@ connect = 127.0.0.1:110
 [ssh]
 accept = 8020
 connect = 127.0.0.1:22
+
+[dropbear]
+accept = 80
+connect = 127.0.0.1:550
 EOF
 }
 
@@ -505,7 +509,7 @@ echo -e "#############################################${RESET}"
 
 ports () {
 echo -e "${GREEN} Service	                 PORTS ${RESET}"
-echo -e "${GREEN}Openvpn TCP           = 443, 110 ${RESET}"
+echo -e "${GREEN}Openvpn TCP           = 441, 110 ${RESET}"
 echo -e "${GREEN}Openvpn UDP           = 110 ${RESET}"
 echo ""
 echo -e "${GREEN}Privoxy               = 8080, 8888, 3128, 8000 ${RESET}"
