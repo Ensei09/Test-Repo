@@ -8,7 +8,7 @@ system("clear")
 IP = '0.0.0.0'
 try:
    PORT = int(sys.argv[1])
-except:
+else:
    PORT = 80
 PASS = ''
 BUFLEN = 4096 * 4
