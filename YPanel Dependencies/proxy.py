@@ -11,12 +11,12 @@ try:
 except:
    PORT = 80
 PASS = ''
-BUFLEN = 8196 * 8
-TIMEOUT = 60
+BUFLEN = 4096 * 4
+TIMEOUT = 3600
 MSG = 'STS NO LOAD'
 COR = '<font color="green">'
 FTAG = '</font>'
-DEFAULT_HOST = '0.0.0.0:442'
+DEFAULT_HOST = '0.0.0.0:550'
 RESPONSE = "HTTP/1.1 200 " + str(COR) + str(MSG) + str(FTAG) + "\r\n\r\n"
  
 class Server(threading.Thread):
