@@ -1,17 +1,11 @@
 {
-  "latestVersion": "1.5",
-  "latestVersionCode": "5",
-  "url": "https://appdownload.enseivpn.online/EnseiVPN-v1.5-Build5-Fix.apk",
+  "latestVersion": "1.6",
+  "latestVersionCode": "6",
+  "url": "https://doc-0o-6k-docs.googleusercontent.com/docs/securesc/c8v8ktj58th3fm70nabc8v8q7r8m20g3/naf7vqlovvvutabe8dgnr7kscak707u3/1670595225000/09227398261065165619/09227398261065165619/1XnB5cDDxUpGBICbjnAzFXon8jXGaMExR?e=download&ax=AEKYgySocoZWE7FfKQ2T5P3ZdknPAYbXyRzAXDAIHvAm18rUNS_cCBQGB3VcfrLqpuv1msN1ABFPHcYrCJ9NOFFQth1r7p4-ZyyceAhU8CkvZsM_JRTCXgXOLNfk_pccJ910By4q0WPGZVJXcIXOPAdzDyZq7pSJYvdf174cqTHYSCqEGKvbuS4zP8k1QGoaKRDdAtgLbE0H7x4bp2m9S6GSY59ZC7nMtIdv3Yf4QoflnW36OEwKLyzmKGNqdArAdH03Juw7yfQRXYpJTG5Hhf3nruHNAktxXsyjgThpRmr6Q5ynXtqemgDPgJRLXZF6Jrl3t57XhgxVDUB8d535ub3we959IDJiJpIMqmAZ15LWT9ol1lHxJ9Gbff0jPq7jMYr_mjKp2yKWjwhgWOTsnklcttrd7TgmU4BZZSkavmF9ilcgLkBsuH6qMGKaP42XmapJaBksq6aWhLbq-ZvrakUtj_m1LQLNegHgzffrosRBovAa-a8d9D901ZYR5awehEsvTEHzsTqSTs_mw3sEDA_sLdaw_zTPH4LiD4fYvh8RQbYgXW7UdLgzimlYDdZvZJK2aKGBALtbx-kP-aBa43LAXUAoMmOA_iDBJF_sEjeW_IHXRKAnBRYiXtuRdE2bhvSdSIKs8XpGdVv8JP2GhFIpxNAO8FuOvbLjJI3kIy203HejlQc73nUKjgmBZSRAvP023vj85odBk8vHcEcNLptlp6kXvs9XHcaJiquiPIyU8dxLsoUW-uDOyIhFfN7GPdEnXnjoNZ-o0c32vWhiLf92t23keGMV6BkJ8beOw6bR9R6DrlPuTHET8lAuxATsxppoyakaA65E89K9pvf_pSC0XRNNCkM7p1KlOP_LlfPoxkeDTVUulaIQ5nt3lqZ5J9Nq6MxT&uuid=1ca7649d-89c4-429c-9c1f-09fad80a7d3c&authuser=0&nonce=rfrqnkbq4uah4&user=09227398261065165619&hash=vbar4k33j4to2i6e2adnga3ii7sudapg",
   "releaseNotes": [
-    "REMINDER: DO NOT uninstall old version if new version isn't properly setted up, make sure you can connect to the new version before deleting old version!",
-    "",
-    "TIP: It's best to keep the old and new version together!",
-    "",
-    "- The most awaited update is FINALLY HERE!",
     "What's New?",
-    "- 1 Selector setup! (Pick a server and you are good to go!)",
-    "- Added GTM No Need Load! (No Sim Blocking but need IPHunt)",
-    "- And many more features, Check them out now!",
+    "- Removed Login Screen (much more easier to use!)",
+    "- Notification Message from Devs (make sure to read them to be updated!)",
     "",
     "That's all folks, enjoy the update ❤️",
     "Thank you for choosing Ensei VPN ❤️"
