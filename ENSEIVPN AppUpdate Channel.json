@@ -1,11 +1,11 @@
 {
-  "latestVersion": "1.6",
-  "latestVersionCode": "6",
-  "url": "https://github.com/Ensei09/Test-Repo/raw/main/EnseiVPN%20Apk/EnseiVPN-v1.6-Build6.apk",
+  "latestVersion": "1.7",
+  "latestVersionCode": "7",
+  "url": "https://raw.githubusercontent.com/Ensei09/Test-Repo/main/EnseiVPN%20Apk/EnseiVPN-v1.7-Build7-Minified.apk",
   "releaseNotes": [
     "What's New?",
-    "- Removed Login Screen (much more easier to use!)",
-    "- Notification Message from Devs (make sure to read them to be updated!)",
+    "- New UI more informative!",
+    "- Hate the Light? Go Dark Mode! Check it on the Settings of the VPN App!",
     "",
     "That's all folks, enjoy the update ❤️",
     "Thank you for choosing Ensei VPN ❤️"
