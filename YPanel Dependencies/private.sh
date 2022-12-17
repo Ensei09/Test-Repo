@@ -3,9 +3,9 @@ error_reporting(E_ERROR | E_PARSE);
 ini_set('display_errors', '1');
 
 ##Set DB Details of Yellow Panel
-$DB_host = "54.178.101.139";
+$DB_host = "13.212.208.78";
 $DB_user = "sql_main_panel_e";
-$DB_pass = "pwzThdkxmA3SyXNa";
+$DB_pass = "a4dfWWNsCJchKsSB";
 $DB_name = "sql_main_panel_e";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
