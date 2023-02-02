@@ -4,9 +4,9 @@ ini_set('display_errors', '1');
 
 ##Set DB Details of Yellow Panel
 $DB_host = "34.143.232.146";
-$DB_user = "sql_sg_panel_ens";
-$DB_pass = "75EexzZDH6tmjXxc";
-$DB_name = "sql_sg_panel_ens";
+$DB_user = "sql_main_panel_e";
+$DB_pass = "hSybS5rtCXNxXjaE";
+$DB_name = "sql_main_panel_e";
 
 $mysqli = new MySQLi($DB_host,$DB_user,$DB_pass,$DB_name);
 if ($mysqli->connect_error) {
