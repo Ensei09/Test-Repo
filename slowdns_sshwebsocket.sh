@@ -703,8 +703,8 @@ fi
 
 
  # Pulling OpenVPN no internet fixer script
- #wget -qO /etc/openvpn/openvpn.bash "https://raw.githubusercontent.com/Bonveio/BonvScripts/master/openvpn.bash"
- #0chmod +x /etc/openvpn/openvpn.bash
+ wget -qO /etc/openvpn/openvpn.bash "https://raw.githubusercontent.com/Bonveio/BonvScripts/master/openvpn.bash"
+ 0chmod +x /etc/openvpn/openvpn.bash
 }
 
 function InsProxy(){
